@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/diamont1001/eslint-config.git"
   },
-  "homepage": "https://github.com:diamont1001/eslint-config",
+  "homepage": "https://github.com/diamont1001/eslint-config",
   "author": "diamont1001",
   "scripts": {
     "lint": "eslint test index.js",
