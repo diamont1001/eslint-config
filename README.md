@@ -23,7 +23,7 @@ package.json增加脚本lint:
 开发完成后，一般打包或者发布前需要检查代码
 
 ```$
-tnpm run lint
+npm run lint
 ```
 
 ## 自定义规则 ##
