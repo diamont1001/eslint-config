@@ -1,0 +1,35 @@
+{
+  "name": "@jr/eslint-config",
+  "version": "1.0.0",
+  "description": "ellint配置，个人前端代码检查规范",
+  "license": "MIT",
+  "devDependencies": {
+    "autod": "2",
+    "eslint": "2",
+    "mocha": "~2.3.3"
+  },
+  "dependencies": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diamont1001/eslint-config.git"
+  },
+  "homepage": "https://github.com:diamont1001/eslint-config",
+  "author": "diamont1001",
+  "scripts": {
+    "lint": "eslint test index.js",
+    "test": "mocha",
+    "ci": "npm run lint && npm run test",
+    "autod": "autod -e test/fixtures -f ~ -w"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "files": [
+    ".eslintrc",
+    "index.js"
+  ]
+}
