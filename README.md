@@ -1,4 +1,4 @@
-# @jr/eslint-config #
+# jr-eslint-config #
 
 ellint配置，个人前端代码检查规范
 
@@ -6,7 +6,7 @@ ellint配置，个人前端代码检查规范
 ### 1. 插件安装 ###
 
 ```$
-npm install eslint @jr/eslint-config
+npm install eslint jr-eslint-config
 ```
 
 ### 2. 增加配置 ###
@@ -28,11 +28,11 @@ tnpm run lint
 
 ## 自定义规则 ##
 
-如果想基于 `@jr/eslint-config` 代码规范扩展自己的规则，可以在自己项目根目录下建立 `.eslintrc` 文件，并引入 `@jr/eslint-config` 
+如果想基于 `jr-eslint-config` 代码规范扩展自己的规则，可以在自己项目根目录下建立 `.eslintrc` 文件，并引入 `jr-eslint-config` 
 
 	// .eslintrc
 	{
-		"extends": "@jr/eslint-config",
+		"extends": "jr-eslint-config",
 		"rules": {
 			// your rules here
 		}

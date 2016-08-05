@@ -1,5 +1,5 @@
 {
-  "name": "@jr/eslint-config",
+  "name": "jr-eslint-config",
   "version": "1.0.0",
   "description": "ellint配置，个人前端代码检查规范",
   "license": "MIT",
@@ -31,5 +31,8 @@
   "files": [
     ".eslintrc",
     "index.js"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/diamont1001/eslint-config/issues"
+  }
 }
