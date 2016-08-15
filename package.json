@@ -1,5 +1,5 @@
 {
-  "name": "jr-eslint-config",
+  "name": "eslint-config-jr",
   "version": "1.0.1",
   "description": "ellint配置，个人前端代码检查规范",
   "license": "MIT",
