@@ -18,7 +18,7 @@
   "rules": {
     "no-alert": 2,
     "no-array-constructor": 2,
-    // "no-bitwise": 2,
+    "no-bitwise": 2,
     "no-caller": 2,
     "no-catch-shadow": 2,
     "no-cond-assign": [2, "except-parens"],
@@ -33,7 +33,7 @@
     "no-dupe-args": 2,
     "no-duplicate-case": 2,
     "no-else-return": 0,
-    // "no-empty": 2,
+    "no-empty": 2,
     "no-empty-character-class": 2,
     "no-eq-null": 0,
     "no-eval": 2,

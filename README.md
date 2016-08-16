@@ -16,7 +16,7 @@ npm install eslint eslint-config-jr
 	// .eslintrc
 	{
 	    "extends": [
-	    	"./node_modules/eslint-config-jr/.eslintrc"
+	    	"jr"
 	    ],
 	    "rules": {
 	        // your rules here
