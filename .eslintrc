@@ -141,7 +141,7 @@
     "generator-star-spacing": 0,
     "guard-for-in": 0,
     "handle-callback-err": 0,
-    "indent": ["error", "tab"],
+    "indent": ["error", 2],
     "key-spacing": [2, {
       "beforeColon": false,
       "afterColon": true

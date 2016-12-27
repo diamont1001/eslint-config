@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-jr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ellint配置，个人前端代码检查规范",
   "license": "MIT",
   "devDependencies": {
